@@ -1,0 +1,43 @@
+body {
+  background-color: black;
+}
+.grid-container {
+  align-self: center;
+  display: grid;
+  gap: 1em;
+  margin: 7% auto;
+  width: 50%;
+  grid-template-areas: 
+     'a a a b'
+     'a a a b'
+     'c c d d'
+     'c c e e';
+  grid-auto-rows: 100px;
+}
+
+.first-grid{
+  grid-area: a;
+  background-color: rgb(241, 51, 26); 
+  border-radius: 2px;
+}
+.second-grid{
+  grid-area: b;
+  background-color: rgb(235, 185, 22);
+  border-radius: 2px;
+}
+.third-grid{
+  grid-area: c;
+  background-color: rgb(5, 143, 35);
+  border-radius: 1px;
+}
+.fourth-grid{
+  grid-area: d;
+  background-color: rgb(15, 163, 221);
+  border-radius: 2px;
+}
+.fifth-grid{
+  grid-area: e;
+  background-color: rgb(15, 163, 221);
+  border-radius: 2px;
+}
+
