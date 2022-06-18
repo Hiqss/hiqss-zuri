@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+main {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+}
+@media (max-width: 1200px){
+    main {
+        flex-direction: column;
+    }
+}
+img {
+    padding-bottom: 12px;
+}
+h2 {
+    color: hsl(0, 0%, 95%)k;
+    padding-bottom: 20px;
+    font-family: Big Shoulders Display;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 40px;
+    font-family: Lexend Deca;
+}
+button {
+    margin-bottom: 10px;
+}
+.first-div {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    height: 360px;
+    border-radius: 5px;
+}
+.first-button {
+    background-color: white;
+    color: hsl(31, 77%, 52%);
+    border: 2px white;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+.first-button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border: 2px solid white;
+}
+.second-div {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    height: 360px;
+}
+.second-button {
+    background-color: white;
+    color: hsl(184, 100%, 22%);
+    border: 2px white;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+.second-button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border: 2px solid white;
+}
+.third-div {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    height: 360px;
+    border-radius: 5px;
+}
+.third-button {
+    background-color: white;
+    color: hsl(179, 100%, 13%);
+    border: 2px white;
+    border-radius: 20px;
+    padding: 10px 25px;
+}
+.third-button:hover {
+    border: 2px solid white;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+}
